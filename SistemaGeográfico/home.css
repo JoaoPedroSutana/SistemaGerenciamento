@@ -1,0 +1,79 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "arealateral cabecalho cabecalho"
+    "arealateral conteudoprincipal conteudoprincipal"
+    "arealateral rodape rodape";
+    grid-template-columns: 187px auto auto;
+    grid-template-rows: auto 87vh auto;
+    margin: 0px;
+    
+}
+.cabecalho{
+    border: solid 10px;
+    background: rgba(4, 201, 244, 1);;
+    grid-area: cabecalho;
+    color: white;
+    border-color: rgba(4, 201, 244, 1);
+}
+.arealateral{
+    display: flex;
+    flex-direction: column;
+    background: rgba(217, 217, 217, 1);
+    grid-area: arealateral;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 189px;
+}
+.arealateral a{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.btnarea{
+    width: 189px;
+height: 29.03px;
+top: 147px;
+gap: 0px;
+border: none;
+opacity: 0px;
+gap: 1px;
+}
+.conteudoprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(231, 231, 231, 1);
+    grid-area: conteudoprincipal;
+}
+.rodape{
+    border: solid 1px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(4, 201, 244, 1);
+    grid-area: rodape;
+    border: solid 10px;
+    border-color: white;
+    text-align: center;
+}
+.conteudoprincipal img{
+    width: 377px;
+height: 368px;
+top: 118px;
+left: 311px;
+gap: 0px;
+opacity: 0px;
+
+}
+.arealateral button{
+    background-color: rgba(4, 201, 244, 1);
+}
+button.home{
+    background: rgba(217, 217, 217, 1);
+    width: 189px;
+height: 29.03px;
+top: 147px;
+gap: 0px;
+border: none;
+opacity: 0px;
+
+}

@@ -1,0 +1,211 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "arealateral cabecalho cabecalho"
+    "arealateral conteudoprincipal conteudoprincipal"
+    "arealateral rodape rodape";
+    grid-template-columns: 187px auto auto;
+    grid-template-rows: auto 87vh auto;
+    margin: 0px;
+    
+}
+.cabecalho{
+    border: solid 10px;
+    background: rgba(4, 201, 244, 1);;
+    grid-area: cabecalho;
+    color: white;
+    border-color: rgba(4, 201, 244, 1);
+}
+.arealateral{
+    display: flex;
+    flex-direction: column;
+    background: rgba(217, 217, 217, 1);
+    grid-area: arealateral;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 189px;
+}
+.arealateral a{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.btnarea{
+    width: 189px;
+height: 29.03px;
+top: 147px;
+gap: 0px;
+border: none;
+opacity: 0px;
+gap: 1px;
+}
+.conteudoprincipal{
+    display: flex;
+    
+    
+    background: rgb(255, 255, 255);
+    grid-area: conteudoprincipal;
+}
+.rodape{
+    border: solid 1px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(4, 201, 244, 1);
+    grid-area: rodape;
+    border: solid 10px;
+    border-color: white;
+    text-align: center;
+}
+.conteudoprincipal img{
+    width: 377px;
+height: 368px;
+top: 118px;
+left: 311px;
+gap: 0px;
+opacity: 0px;
+
+}
+.arealateral button{
+    background-color: rgba(4, 201, 244, 1);
+}
+button.home{
+    background: rgba(217, 217, 217, 1);
+    width: 189px;
+height: 29.03px;
+top: 147px;
+gap: 0px;
+border: none;
+opacity: 0px;
+
+}
+.geral{
+    margin-left: 9px;
+margin-top: 8px;
+
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+   
+}
+.dados{
+    display: grid;
+    width: 454px;
+height: 223px;
+align-content: center;
+margin-bottom: 5px;
+padding: 8px;
+    background: rgba(217, 217, 217, 1);
+}
+.esta2{
+    display: flex;
+    flex-direction: column;
+}
+.esta_codi{
+    display: flex;
+    flex-direction: row;
+}
+.codi2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.esta{
+    width: 66px;
+height: 38px;
+top: 145px;
+left: 206px;
+gap: 0px;
+opacity: 0px;
+
+}
+.regi{
+    width: 436px;
+height: 38px;
+top: 206px;
+left: 206px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.nome{
+    width: 436px;
+height: 46px;
+top: 78px;
+left: 206px;
+gap: 0px;
+opacity: 0px;
+
+}
+.codi{
+    width: 363px;
+height: 38px;
+top: 145px;
+left: 279px;
+gap: 0px;
+opacity: 0px;
+
+}
+label{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+input{
+    border: none;
+}
+.azul{
+    width: 95px;
+height: 31px;
+top: 278px;
+left: 206px;
+gap: 0px;
+opacity: 0px;
+background: rgba(4, 201, 244, 1);
+color: white;
+border: none;
+margin-left: 17px;
+margin-right: 19px;
+}
+.azul a{
+    text-decoration: none;
+    color: white;
+}
+.exc  a{
+    text-decoration: none;
+    color: white;
+}
+.exc{
+    width: 95px;
+height: 31px;
+top: 278px;
+left: 320px;
+gap: 0px;
+opacity: 0px;
+background: rgba(244, 4, 4, 1);
+margin-right: 19px;
+border: none;
+}
+.can{
+    width: 95px;
+height: 31px;
+top: 278px;
+left: 434px;
+gap: 0px;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+border: none;
+}
+.can a{
+    
+    text-decoration: none;
+    color: rgba(4, 201, 244, 1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
